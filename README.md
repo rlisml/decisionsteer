@@ -1,4 +1,4 @@
-# WUAS-Skill — Submission Code
+# Decisionsteer(WUAS-Skill)
 
 Anonymized code for the main experiments: **WUAS-Skill**, a post-block skill
 operator for frozen language models, trained with behavior cloning (BC) and
