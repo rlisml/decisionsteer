@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wuas-skill-plugin"
+version = "0.1.0"
+description = "WUAS-Skill post-block skill-operator steering algorithm plugin for vLLM (steer-vector API)"
+requires-python = ">=3.10"
+
+[project.entry-points."vllm.general_plugins"]
+wuas_skill = "wuas_skill_plugin:register"
+
+[tool.setuptools.packages.find]
+include = ["wuas_skill_plugin*"]
